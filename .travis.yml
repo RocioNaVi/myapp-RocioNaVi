@@ -1,7 +1,9 @@
 language: java
 deploy:
- on:
-  branch: main
- skip_cleanup: true
- provider: heroku
- app: myapp-rocionavi
+  on:
+    branch: main
+  skip_cleanup: true
+  provider: heroku
+  app: myapp-rocionavi
+  api_key:
+    secure: Rskd7TjcUxOqoavlbJXEzQgNmckwsPLC0d/xF3MF860MqM+g7it05nJ585ggqa2GjMW+goMLChEOXdZB9DkVChh4VcQwbZs/8aGXSnybVSfQ1r/6Uy1J0xxuqYWaSjx6ctAWYpoRNge78dFKZNrQUK5GrxVrv4rZwJ/uLp220J2QYFhS1qZVtshEn0e2ICsc3xOZ2iuL+INt33FRst6ox1NDYI9DzkJE6/n5f9d8ZdMR5JNiq/a3jDuaC80I9J8Wh+ETs9oMz/kfcpux0pmHlwadTMXgUe4A+6d7Yzk2t1jRfOBQMonMnmkY0GZ8Cjy+Zb57Umwacj9zcEC2F9ckrbvyzuMF1Bh7t/e4BaLUYp2Sijcz0L64/35OmamMcnplX3G4TeD1imoOB0OSZHnx3BMSEe6oVNfXTJ7UWfYUgtaLEp4CCXHxvFF/EKVAlRD3iXntK+776p/HGKI+vYao98ubuqioyEunpwTS9dYpbl6p5dCFVQNEzOsDYcYz17iRtbD+Yu5pKGvG60NWwUAD29hzcSpH9u/fmkzxpjZy8fOSs3R1zzjCZGZeCZ6HHd0bG5plWXgxH/Ltp1PJfU2ClSmc7P53Zrtw0oE61jkdDw6tigY2JXi6OlxkzGp1Sn0fuNuTq/8b7NOiQWNMCE6NVZnEkFjZPV24v8SL2j2esyI=
